@@ -4,7 +4,7 @@
 | 02 | Similar Slides soll Folien, die sich genau so schon im Repo befinden nicht nochmal speichern | funktional  | - |
 | 03 | Leicht verschiedene Folien sollen nebeneinander gestellt gespeichert werden, sortiert nach Änderungsdatum | funktional | - |
 | 04 | Es soll möglich sein einzelne Folien aus dem Repo zu PowerPoint zu kopieren | funktional | - |
-| 05 | Die Ähnlichkeit der Folien soll mit einem Ähnlichkeitsmaß gemessen werden | funktional | |
+| 05 | Die Ähnlichkeit der Folien soll mit einem Ähnlichkeitsmaß gemessen werden | funktional | 7 |
 | 06 | Man sollte kleinere Behälter im Repo anlegen können, in denen Mitarbeiter ihre Foliensätze hochladen können | funktional | - |
 | 07 | Der Code, insbesondere die Ähnlichkeitslogik, soll lesbar und gut verständlich sein, damit er später von anderen Entwicklern einfach weiterentwickelt und angepasst werden kann | funktional | - |
 | 08 | Funktionsweise des Ähnlichkeitsmaßes: Erst wird auf den Titel geguckt, dann auf Graphiken und Bilder, zuletzt auf den Text | nicht-funktional | 8 |
