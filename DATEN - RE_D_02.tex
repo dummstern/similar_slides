@@ -1,0 +1,34 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {2}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {22.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {1}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Folien dürfen beim Hochladen nicht verloren gehen}
+
+% Kontext der Anforderung
+\def \requirementContext {Wenn Folien in das Repository hochgeladen werden, entscheidet die Software Similar Slides, ob die Folie
+einzeln, neben ähnlichen, sich bereits im Repository befindlichen Folien, oder nicht gespeichert werden soll. Dabei darf es nicht passieren, dass eine Folie fälschlicherweise nicht gespeichert wird, obwohl sie noch nicht im Repository enthalten ist. Passiert dies doch hat das für die Dozierenden zur Folge, dass sie die Folie entweder
+lange suchen oder ganz neu erstellen müssen, falls sie nicht mehr auffindbar ist.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Das System darf nur Folien, bei denen es sich sicher ist, dass sie genau so bereits im Repository vorhanden
+sind, nicht speichern. Alle anderen müssen gespeichert werden. Dabei ist es verkraftbar, wenn das System versehentlich identische Folien doppelt speichert, es dürfen nur in keinem Fall Folien verloren gehen.}

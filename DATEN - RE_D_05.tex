@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {5}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {22.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Ähnlichkeitsmaß muss erkennen können, dass eine Folie neu ist}
+
+% Kontext der Anforderung
+\def \requirementContext {Dieser Record hängt mit Record 4 zusammen. Stellt das Ähnlichkeitsmaß keine Ähnlichkeit fest, so muss die Folie einzeln gespeichert werden, weil sonst keine geordnete Speicherung der Folien im Repository möglich ist.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Das System wird durch dieses Feature in der Lage sein, auch neue Folien abzuspeichern. Ab welchem Ergebnis des Ähnlichkeitsmaßes eine Folie als neu gilt ist nicht fest definiert und muss während der Entwicklung erarbeitet werden.}

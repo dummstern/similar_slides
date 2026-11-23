@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {8}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {23.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {6}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Titel, Text und Graphiken sollen im Ähnlichkeitsmaß verschieden gewichtet werden}
+
+% Kontext der Anforderung
+\def \requirementContext {Das Ähnlichkeitsmaß hat noch keine Möglichkeit um zu erkennen, wie ähnlich sich zwei Folien inhaltlich sind. Die verschiedene Gewichtung von Text, Titel und Graphiken soll dabei helfen und liegt daran, dass die inhaltliche Aussage einer Folie in erster Linie am Text und danach am Titel hängt und Graphiken gleich bleiben können, obwohl sich die eigentliche Botschaft schon geändert hat.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Das Ähnlichkeitsmaß muss anhand der Ähnlichkeit von Titel, Text und Graphiken entscheiden können, ob zwei Folien ähnlich zueinander sind. Gewünscht ist, dass der Text am höchsten gewichtet ist, gefolgt vom Titel und zuletzt von den Graphiken. Durch diese Gewichtung soll das Ähnlichkeitsmaß entscheiden können, ob Folien ähnlich zueinander sind und die Software weiß dadurch, ob Folien neu oder neben alten gespeichert werden müssen. Ab welchem Ähnlichkeitsmaß Folien als ähnlich gelten, ist offen und wird in der Entwicklung erarbeitet. }
