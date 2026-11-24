@@ -1,8 +1,8 @@
 | Nr. | Anforderung  | Art der Anforderung |  Abdeckender Record    |
 |-----|--------------|---------------------|------------------------|
-| 01 | Es muss ein Repository geben, in das Foliensätze hochgeladen werden können | funktional | - |
+| 01 | Es muss ein Repository geben, in das Foliensätze hochgeladen werden können | funktional | 9 |
 | 02 | Similar Slides soll Folien, die sich genau so schon im Repo befinden nicht nochmal speichern | funktional  | - |
-| 03 | Leicht verschiedene Folien sollen nebeneinander gestellt gespeichert werden, sortiert nach Änderungsdatum | funktional | - |
+| 03 | Leicht verschiedene Folien sollen nebeneinander gestellt gespeichert werden, sortiert nach Änderungsdatum | funktional | 10 |
 | 04 | Es soll möglich sein einzelne Folien aus dem Repo zu PowerPoint zu kopieren | funktional | - |
 | 05 | Die Ähnlichkeit der Folien soll mit einem Ähnlichkeitsmaß gemessen werden | funktional | 7 |
 | 06 | Man sollte kleinere Behälter im Repo anlegen können, in denen Mitarbeiter ihre Foliensätze hochladen können | funktional | - |
