@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {10}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {23.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Leicht verschiedene Folien sollen nebeneinander gestellt gespeichert werden}
+
+% Kontext der Anforderung
+\def \requirementContext {In der Arbeit der Dozierenden kommt es häufig vor, dass ein und dieselbe Folie immer wieder weiterentwickelt wird. In der aktuellen Speicherung der Folien in Foliensätzen ist es schwierig nachzuvollziehen, wie sich eine Folie weiterentwickelt, weil die Folien auf verschiedene Dateien verstreut sind. }
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Das Repository soll in der Lage sein, ähnliche Folien nebeneinander gestellt zu speichern, um einen Überblick darüber zu bieten, wie sich eine Folie mit der Zeit weiterentwickelt. Ob zwei Folien ähnlich zueinander sind, bestimmt das in anderen Records beschriebene Ähnlichkeitsmaß.}

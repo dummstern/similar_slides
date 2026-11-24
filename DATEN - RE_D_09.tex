@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {9}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {23.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Es muss ein Repository geben, in das Foliensätze hochgeladen werden können}
+
+% Kontext der Anforderung
+\def \requirementContext {Die Folien werden zur Zeit in verschiedenen Foliensätzen, meist lokal, gespeichert und es ist schwierig einzelne Folien in hunderten bis tausenden anderen Folien wiederzufinden. Diese Suche ist sehr zeitaufwendig und erfordert, dass man sich daran erinnert, wo eine bestimmte Folie ungefähr zu finden ist.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Es soll möglich sein, Foliensätze in das Repository hochzuladen, um sie dort organisiert zu speichern und mehr Übersicht zu bieten. Dazu soll das Repository außerdem durch in anderen Records beschriebene Funktionen ergänzt werden, die z.B. ermöglichen, dass identische Folien nicht doppelt gespeichert werden.}
