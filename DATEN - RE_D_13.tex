@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {13}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Einzelne Folien aus dem Repository nach PowerPoint kopieren}
+
+% Kontext der Anforderung
+\def \requirementContext {Beim Entwickeln neuer Folien ist es vorteilhaft, wenn man die Möglichkeit hat alte und neue Versionen von einzelnen Slides zu einer neuen zusammenzufügen. Durch Trial-and-Error oder eine Befragung ist man eventuell zu dem Schluss gekommen, dass eine vorherige Version der Folie z.B. verständlicher ist und so ist es möglich diese direk in den aktuellsten Foliensatz zu integrieren.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Daraus folgt, dass Similar Slides eine direkte Schnittstelle mit PowerPoint haben muss und nicht ein simples Dateien-Versionierungs-Programm sein kann. Allerdings vereinfacht dieses Feature die Bedienung, insbesondere im Kontext der Vereinigung zweier unterschiedlicher Folienversionen.}
