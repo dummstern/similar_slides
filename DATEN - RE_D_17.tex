@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {17}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {7}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Ähnlichkeitsmaß muss entscheiden können, welche Folien ähnlich zueinander sind}
+
+% Kontext der Anforderung
+\def \requirementContext {Wenn ein Foliensatz in das Repository hochgeladen wird, entscheidet Similar Slides für jede Folie, ob und wie sie gespeichert wird. Kann dies nicht unterschieden werden, so entsteht kein organisierter Foliensatz mit Versionierung für jede Folie. Diese Speicherung würde sich nicht von der aktuellen Speicherung der Foliensätze unterscheiden und die Dozierenden müssen viel Zeit aufwenden, um Folien zu suchen und zu organisieren.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Das System prüft die mögliche Ähnlichkeit jeder Folie mit Folien im Repository mit einem Ähnlichkeitsmaß. Dieses soll die verschiedenen Bestandteile der Folien verschieden Gewichten, was in einem anderen Record genauer beschrieben wurde. }
