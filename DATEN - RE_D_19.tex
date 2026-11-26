@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {19}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker, Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Akzeptiert}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {11}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Identische Folien sollen nicht gespeichert werden}
+
+% Kontext der Anforderung
+\def \requirementContext {Während der Entwickung der Folien kann es vorkommen, dass zwei Tutor*innen die selbe Änderung vornehmen oder man versucht eine bereits vorhandene Version der Folien erneut hochzuladen. Damit das Repository übersichtlich bleibt sollen komplett identische Versionen nicht gespeichert werden.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Ist die XML-Struktur zweier Folien identisch, so wird die, die neu hochgeladen werden soll nicht hochgeladen. Für diese Prüfung ist es nicht nötig das Ähnlichkeitsmaß zu verwenden.}
