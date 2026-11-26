@@ -1,6 +1,6 @@
 | Nr. | Anforderung  | Art der Anforderung |  Abdeckender Record    | Validiert |
 |-----|--------------|---------------------|------------------------|-----------|
-| 01 | Es muss ein Repository geben, in das Foliensätze hochgeladen werden können | funktional | 9 | nein |
+| 01 | Es muss ein Repository geben, in das Foliensätze hochgeladen werden können | funktional | 9 | ja |
 | 02 | Similar Slides soll Folien, die sich genau so schon im Repo befinden nicht nochmal speichern | funktional  | 11 | nein |
 | 03 | Leicht verschiedene Folien sollen nebeneinander gestellt gespeichert werden, sortiert nach Änderungsdatum | funktional | 10 | nein |
 | 04 | Es soll möglich sein einzelne Folien aus dem Repo zu PowerPoint zu kopieren | funktional | 13 | nein |
