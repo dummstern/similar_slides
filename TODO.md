@@ -12,3 +12,4 @@
 | 10 | Die Software soll mit VisualBasic auf die XML Struktur der .pptx Dateien zugreifen | nicht-funktional | 12 | nein |
 | 11 | Die Software soll in einer objektorientierten Programmiersprache geschrieben werden | Constraint | 14 | nein |
 | 12 | Nur das Format .pptx soll unterstützt werden | Constraint | 15 | nein |
+| 13 | Es muss möglich sein, neue Folien im Repository speichern zu können | funktional | 5 | ja |
