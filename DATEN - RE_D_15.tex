@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {15}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Ausschließlich .pptx-Dateien unterstützen}
+
+% Kontext der Anforderung
+\def \requirementContext {Präsentations-Folien können in vielen unterschiedlichen Datei-Formaten (.pptx, .odp, .pdf, etc.) vorliegen. Diese alle zu unterstützen ist teilweise unmöglich (.pdf) oder würde erschwerende Konsequenzen mit sich bringen.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Personen die Microsoft Alternativen (LibreOffice u.a.) benutzen und tendenziell die OpenDocument-Formate wählen würden, werden benachteiligt und gezwungen, das weniger gut unterstützte .pptx-Format zu verwenden. Für die Software vereinfacht diese Einschränkung jedoch die Entwicklung und Wartung, da auf weniger Edge-Cases und Format-Eigenheiten Rücksicht genommen werden muss.}
