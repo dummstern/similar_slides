@@ -9,7 +9,7 @@
 | 07 | Der Code, insbesondere die Ähnlichkeitslogik, soll lesbar und gut verständlich sein, damit er später von anderen Entwicklern einfach weiterentwickelt und angepasst werden kann | nicht-funktional | 16 | nein |
 | 08 | Funktionsweise des Ähnlichkeitsmaßes: Erst wird auf den Titel geguckt, dann auf Graphiken und Bilder, zuletzt auf den Text | nicht-funktional | 8 | ja |
 | 09 | Die Software soll keine Folien "fressen" | nicht-funktional | 2 | ja |
-| 10 | Die Software soll mit VisualBasic auf die XML Struktur der .pptx Dateien zugreifen | nicht-funktional | 12 | nein |
+| 10 | Die Software soll mit VisualBasic auf die XML Struktur der .pptx Dateien zugreifen | nicht-funktional | 20 | ja |
 | 11 | Die Software soll in einer objektorientierten Programmiersprache geschrieben werden | Constraint | 14 | nein |
 | 12 | Nur das Format .pptx soll unterstützt werden | Constraint | 20 | ja |
 | 13 | Es muss möglich sein, neue Folien im Repository speichern zu können | funktional | 5 | ja |
