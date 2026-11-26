@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {15}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Niklas Käsehagen, OneTutor (Customer Proxy)}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Der Code, besonders die Ähnlichkeitslogik, sollte gut lesbar und anpassbar sein}
+
+% Kontext der Anforderung
+\def \requirementContext {Es gibt Teile in der Software, die nach Abschluss dieses Projekts möglicherweise erneut angepasst werden müssen, weil sie noch nicht fest definiert sind. Ein Beispiel dafür ist die Genauigkeit des Ähnlichkeitsmaßes.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Der Code sollte, besonders im Bereich des Ähnlichkeitsmaßes, gut lesbar und ausreichend kommentiert sein, damit er später leicht angepasst werden kann. }
