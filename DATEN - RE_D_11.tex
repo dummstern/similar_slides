@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {11}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Vorgeschlagen}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Identische Folien sollen nicht gespeichert werden}
+
+% Kontext der Anforderung
+\def \requirementContext {Während der Entwickung der Folien kann es vorkommen, dass zwei Tutoren die selbe Änderung vornehmen oder man versucht eine bereits vorhandene Version der Folien erneut hochzuladen. Damit das Repo übersichtlich bleibt sollen komplett identische Versionen nicht gespeichert werden.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Mit dem implementierten Ähnlichkeitsmaß wird die Ähnlichkeit bestimmt. Ist diese Ähnlichkeit maximal, so wird die Fole, die versucht wurde hochzuladen, mit einem Vermerk auf die bereits existierende, nicht ins Repo übernommen.}
