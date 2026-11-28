@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {21}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {28.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker, Niklas Käsehagen}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Akzeptiert}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {13}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Einzelne Folien sollten aus dem Repository zu PowerPoint kopiert werden können}
+
+% Kontext der Anforderung
+\def \requirementContext {Similar Slides kann bisher Folien organisiert speichern, am präsentesten ist für die Dozierenden jedoch, die gefundenen guten Folien auch direkt wiederverwenden zu können. Ohne diese Funktionalität hat es keinen Nutzen die Folien in einem Repo zu speichern.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Die Software soll über eine Funktionalität verfügen, mit der einzelne Folien, etwa mit ”Strg+C”, aus dem Repository rauskopiert werden können, um sie direkt in PowerPoint einzufügen.}
