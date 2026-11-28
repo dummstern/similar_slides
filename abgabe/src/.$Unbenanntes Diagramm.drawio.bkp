@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Seite-1" id="5rQ6wnE9L6xJwz1M1tXa">
+    <mxGraphModel dx="1189" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-5" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-10" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-11" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dozent*in" vertex="1">
+          <mxGeometry height="60" width="30" x="140" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=30;" value="Similar Slides" vertex="1">
+          <mxGeometry height="340" width="590" x="210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-14" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-16" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="320" />
+              <mxPoint x="380" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Repository" vertex="1">
+          <mxGeometry height="80" width="130" x="840" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Foliensätze hochladen" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Folien ansehen" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Einzelne Folien rauskopieren" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ähnlichkeitsmaß vergleicht die Folien mit Folien des Repositories" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-13" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-4" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d2JQ3Dp9smUENCbu-pIE-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="362" y="320" as="sourcePoint" />
+            <mxPoint x="442" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-17" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="320" />
+              <mxPoint x="400" y="480" />
+            </Array>
+            <mxPoint x="947" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-22" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" target="d2JQ3Dp9smUENCbu-pIE-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Folie neu speichern, wenn noch nicht im Repo enthalten" vertex="1">
+          <mxGeometry height="80" width="120" x="525" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-23" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="d2JQ3Dp9smUENCbu-pIE-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Neben ähnlichen Folien speichern, wenn ähnliche Folien im Repo" vertex="1">
+          <mxGeometry height="80" width="130" x="660" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-24" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="d2JQ3Dp9smUENCbu-pIE-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Nicht speichern, wenn identische Folie bereits im Repo" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-26" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2JQ3Dp9smUENCbu-pIE-27" edge="1" parent="1" source="d2JQ3Dp9smUENCbu-pIE-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="d2JQ3Dp9smUENCbu-pIE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
