@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {14}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {26.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Abgelöst}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {22}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Similar Slides in einer objektorientierten Programmiersprache}
+
+% Kontext der Anforderung
+\def \requirementContext {Verwendet man OOP in der Entwicklung, so ist der Code (insbesondere die Ähnlichkeitslogik) gut strukturiert, modular und für zukünftige Entwickler*innen einfach zu warten und anzupassen.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Die Menge der sinnvoll nutzbaren Sprachen, die benutzt werden könnten, um Similar Slides zu entwickeln, verkleinert sich auf Java, C++, Kotlin u.a.}

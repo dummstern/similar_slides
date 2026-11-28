@@ -1,0 +1,31 @@
+%% Allgemeines -----------------------------------
+
+% Fortlaufende Nummerierung - Entweder 1, 2, 3, 4, ... oder mit einem semantischen Schema
+\def \decisionID {23}
+
+% Datum, an dem der Record anefertigt wurde
+\def \decisionDate {28.11.2026}
+
+% Wer hat an dem Record mitgewirkt?
+\def \decisionParticipants {Quentin Becker, Niklas Käsehagen}
+
+% Der Status in dem sich die Anforderung in diesem Record aktuell befindet.
+% Möglichkeiten: Vorgeschlagen, Akzeptiert, Abgelehnt, Abgelöst
+\def \decisionStatus {Akzeptiert}
+
+% ID des Records, der diesen Record ablöst, falls zutreffend
+\def \decisionSuperseded {}
+
+% ID des Records, den dieser Record ablöst, falls zutreffend
+\def \decisionSuperseding {15}
+
+%% Anforderung -----------------------------------
+
+% Titel der Anforderung
+\def \requirementTitle {Similar Slides soll ausschließlich .pptx-Dateien unterstützen}
+
+% Kontext der Anforderung
+\def \requirementContext {Die Dozierenden von SWT nutzen als Format für ihre Präsentationsfolien hauptsächlich PowerPoints .pptx. Außerdem ist es vergleichsweise einfach auf die Struktur von .pptx-Dateien zuzugreifen.}
+
+% Konsequenz der Anforderung
+\def \requirementConsequences {Similar Slides soll nur das Format .pptx unterstützen. Diese Einschränkung vereinfacht die Entwicklung und Wartung, da auf weniger Edge-Cases und Format-Eigenheiten Rücksicht genommen werden muss.}
